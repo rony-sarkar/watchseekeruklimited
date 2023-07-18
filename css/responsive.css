@@ -5,10 +5,6 @@
         font-size: 12px;
     }
 
-    .support-box ul li {
-        width: 24.2%;
-    }
-
     .condition ul li {
         width: 16.5%;
     }
@@ -29,6 +25,16 @@
     .footer-logo {
         text-align: center;
         margin-bottom: 30px;
+    }
+
+    .main-div,
+    .container {
+        width: 750px !important;
+        margin: 0 !important;
+    }
+
+    .wel-come h4 {
+        font-size: 14px;
     }
 
     .support-box ul li {
@@ -70,6 +76,12 @@
 /***** Mobile Layout *****/
 
 @media only screen and (max-width: 767px) {
+
+    .main-div,
+    .container {
+        width: auto;
+    }
+
     .wel-come h4 {
         font-size: 14px;
     }
@@ -248,6 +260,9 @@
 
     .footer-widget ul li a {
         font-size: 12px;
+    }
+    .support-box ul li {
+	    border: 1px solid #000 !important;
     }
 }
 
